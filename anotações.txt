@@ -1,0 +1,8 @@
+iniciar o prisma:
+    npx prisma init --datasource-provider SQLite 
+
+fazer a migração depois de criar o schema(model):
+    npx prisma migrate devs
+
+ver o db que foi criado:
+    npx prisma studio
